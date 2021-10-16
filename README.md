@@ -2,6 +2,8 @@
 
 This project consists of developing a currency converter
 
+![Alt Text](/public/resultat-attendu.gif)
+
 We use in this project the exchangeratesapi API in order to convert : https://exchangeratesapi.io/ 
 
 
@@ -29,7 +31,7 @@ Open the terminal comand line window
 
 Open the main folder and execute the `npm start` command  
 Enjoy!  
-![Alt Text](/public/resultat-attendu.gif)
+
 
 
 

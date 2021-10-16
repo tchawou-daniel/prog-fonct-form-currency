@@ -15,7 +15,7 @@ This project consists of developing a currency converter
 
 ## Live Demo
 
-[Repl.it](https://codesandbox.io/s/tp-solution-forked-42l72?file=/public/index.html)
+[Codesandbox](https://codesandbox.io/s/tp-solution-forked-42l72?file=/public/index.html)
 
 ## Get Started
 
@@ -23,7 +23,8 @@ To get a local copy up and running follow these simple example steps.
 
 Open the terminal comand line window  
 `git clone https://github.com/sipe-daniel/enumerable-methods.git`
-Open the main folder and execute the npm start file  
+
+Open the main folder and execute the `npm start` command  
 Enjoy!  
 
 

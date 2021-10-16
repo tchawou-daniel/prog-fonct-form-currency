@@ -2,6 +2,9 @@
 
 This project consists of developing a currency converter
 
+We use in this project the exchangeratesapi API in order to convert : https://exchangeratesapi.io/ 
+
+
 ## Built With
 
 - ReactJs
@@ -26,6 +29,12 @@ Open the terminal comand line window
 
 Open the main folder and execute the `npm start` command  
 Enjoy!  
+![Alt Text](/public/resultat-attendu.gif)
+
+
+
+**NOTE 1: You need to use your own api key if you wan to run in your computer. For that you have to create an account on https://exchangeratesapi.io/ and choose the free plan. Just replace MY_API_KEY in the folder converter by your own. With the free plan if you change the base currency(EUR) you're going to get an error.**
+
 
 
 ## Show your support

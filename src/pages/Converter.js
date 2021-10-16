@@ -44,12 +44,12 @@ class Converter extends Component {
     if (amount === isNaN) {
       return;
     } else if (amount > 0 && isTwoCurrenciesEuro === false) {
-      result = fetch(
-        //important
-        `https://api.exchangeratesapi.io/latest?base=${this.state.base}`
+      result = fetch(                                                                     
+        `http://api.exchangeratesapi.io/v1/latest?access_key=MY_API_KEY&base=${this.state.base}&symbols=EUR,CHF,GBP,USD`
       )
         .then((res) => res.json())
         .then((data) => {
+          console.log(data)
           result = (data.rates[this.state.outputDevises] * amount).toFixed(4);
           this.setState({
             result

@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Prog-fonct-form-currency (Currency converter)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project consists of developing a currency converter
 
-## Available Scripts
+![Alt Text](/public/resultat-attendu.gif)
 
-In the project directory, you can run:
+We use in this project the exchangeratesapi API in order to convert : https://exchangeratesapi.io/ 
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Built With
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- ReactJs
 
-### `yarn test`
+## Author
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+👤 **Daniel Jordan Sipe Tchawou**
 
-### `yarn build`
+- Github: [@sipe-daniel](https://github.com/tchawou-daniel)
+- Linkedin: [linkedin](https://www.linkedin.com/in/daniel-jordan-sipe-tchawou-1b060a10b/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Live Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Codesandbox](https://codesandbox.io/s/tp-solution-forked-42l72?file=/public/index.html)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Get Started
 
-### `yarn eject`
+To get a local copy up and running follow these simple example steps.  
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Open the terminal comand line window  
+`git clone https://github.com/sipe-daniel/enumerable-methods.git`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Open the main folder and execute the `npm start` command  
+Enjoy!  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**NOTE 1: You need to use your own api key if you wan to run in your computer. For that you have to create an account on https://exchangeratesapi.io/ and choose the free plan. Just replace MY_API_KEY in the folder converter by your own. With the free plan if you change the base currency(EUR) you're going to get an error.**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Show your support
 
-### Analyzing the Bundle Size
+- [ ] Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📝 License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [ ] See [LICENSE.md]() for details.
